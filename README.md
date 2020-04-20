@@ -19,4 +19,4 @@ Refactor, maybe use Inheritance?
 <b>To Run:</b>
 Runs in any IDE that can run Java. Length and Height of the board can be chosen in the Main class where the new Dungeon() is called. Lives and number of vampires are also chosen here. Vampires can also be made stationary by choosing False in the final parameter.
 
-Your character is represented by '@'. 
+Your character is represented by '@'. Vampires are 'v'. To kill a vampire you need to move your character on top of one of them. The vampires move around the map at random. Moves are made by pressing w(up), s(down), a(left) and (d)right and then hitting Enter. Whenever you look at the map you use up a torch. If all torches run out, you die. You can move multiple times in a turn by queueing up a list of commands and then hitting Enter. This will still only count as one loss from your torch and any vampires you cross paths with during the move will die.
